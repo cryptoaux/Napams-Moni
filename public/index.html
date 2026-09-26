@@ -12,6 +12,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   >
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.4/jspdf.plugin.autotable.min.js"></script>
   <style>
     * {
       box-sizing: border-box;
@@ -1404,36 +1405,26 @@
       ).textContent =
         approved;
     }
-    function getStatusAccent(color) {
+    function getPdfStatusColors(color) {
       const normalized = String(color || "").toUpperCase();
       if (normalized === "GREEN") {
-        return { fill: [34, 197, 94], text: [20, 83, 45] };
+        return { fill: [220, 252, 231], text: [22, 101, 52] };
       }
       if (normalized === "YELLOW") {
-        return { fill: [245, 158, 11], text: [120, 53, 15] };
+        return { fill: [254, 243, 199], text: [146, 64, 14] };
       }
-      return { fill: [239, 68, 68], text: [127, 29, 29] };
+      return { fill: [254, 226, 226], text: [185, 28, 28] };
     }
     function buildPdfReportData() {
       const visibleCompanies = getVisibleCompanies();
-      let totalCompanies = visibleCompanies.length;
+      const totalCompanies = visibleCompanies.length;
       let totalApplications = 0;
-      let approved = 0;
-      let inProgress = 0;
 
       visibleCompanies.forEach(company => {
         const applications = Array.isArray(company.applications)
           ? company.applications
           : [];
         totalApplications += applications.length;
-        applications.forEach(app => {
-          const status = String(app.currentStatus || "").toLowerCase();
-          if (status.includes("approved")) {
-            approved += 1;
-          } else {
-            inProgress += 1;
-          }
-        });
       });
 
       return {
@@ -1441,15 +1432,13 @@
         visibleCompanies,
         summary: {
           totalCompanies,
-          totalApplications,
-          approved,
-          inProgress
+          totalApplications
         }
       };
     }
     function downloadPdfReport() {
-      if (!window.jspdf || !window.jspdf.jsPDF) {
-        console.error("jsPDF library is not available.");
+      if (!window.jspdf || !window.jspdf.jsPDF || !window.jspdf.jsPDF.API.autoTable) {
+        console.error("PDF report libraries are not available.");
         return;
       }
 
@@ -1459,130 +1448,168 @@
       const pageWidth = doc.internal.pageSize.getWidth();
       const pageHeight = doc.internal.pageSize.getHeight();
       const margin = 42;
-      let cursorY = 88;
 
       doc.setFillColor(20, 83, 45);
-      doc.rect(0, 0, pageWidth, 72, "F");
+      doc.rect(0, 0, pageWidth, 82, "F");
       doc.setTextColor(255, 255, 255);
-      doc.setFontSize(20);
+      doc.setFontSize(21);
       doc.setFont("helvetica", "bold");
-      doc.text("NAPAMS Monitor Report", margin, 32);
+      doc.text("NAPAMS Monitor Report", margin, 36);
       doc.setFontSize(10);
       doc.setFont("helvetica", "normal");
-      doc.text(`Generated: ${generatedAt.toLocaleString()}`, margin, 52);
+      doc.text(`Generated: ${generatedAt.toLocaleString()}`, margin, 58);
 
-      doc.setTextColor(23, 32, 51);
       const summaryCards = [
         { label: "Total Companies", value: summary.totalCompanies },
-        { label: "Total Applications", value: summary.totalApplications },
-        { label: "In Progress", value: summary.inProgress },
-        { label: "Approved", value: summary.approved }
+        { label: "Total Applications", value: summary.totalApplications }
       ];
 
       summaryCards.forEach((card, index) => {
-        const col = index % 2;
-        const row = Math.floor(index / 2);
-        const x = margin + (col * 250);
-        const y = 96 + (row * 72);
+        const cardWidth = (pageWidth - (margin * 2) - 14) / 2;
+        const x = margin + (index * (cardWidth + 14));
+        const y = 104;
         doc.setFillColor(244, 246, 249);
-        doc.roundedRect(x, y, 210, 52, 10, 10, "F");
+        doc.setDrawColor(229, 231, 235);
+        doc.roundedRect(x, y, cardWidth, 68, 8, 8, "FD");
         doc.setTextColor(107, 114, 128);
         doc.setFontSize(9);
-        doc.text(card.label.toUpperCase(), x + 16, y + 18);
-        doc.setTextColor(23, 32, 51);
-        doc.setFontSize(24);
         doc.setFont("helvetica", "bold");
-        doc.text(String(card.value), x + 16, y + 40);
+        doc.text(card.label.toUpperCase(), x + 16, y + 23);
+        doc.setTextColor(23, 32, 51);
+        doc.setFontSize(25);
+        doc.setFont("helvetica", "bold");
+        doc.text(String(card.value), x + 16, y + 53);
       });
 
-      cursorY = 236;
       doc.setFont("helvetica", "bold");
-      doc.setFontSize(14);
+      doc.setFontSize(13);
       doc.setTextColor(20, 83, 45);
-      doc.text("Company Overview", margin, cursorY);
-      cursorY += 18;
+      doc.text("Application Status", margin, 207);
 
-      if (!visibleCompanies.length) {
-        doc.setFont("helvetica", "normal");
-        doc.setFontSize(11);
-        doc.setTextColor(75, 85, 99);
-        doc.text("No visible products match the current filter.", margin, cursorY + 18);
-        doc.save("napams-monitor-report.pdf");
-        return;
+      const tableRows = [];
+      visibleCompanies.forEach(company => {
+        const applications = Array.isArray(company.applications)
+          ? company.applications
+          : [];
+        const companyName = String(
+          company.name || company.companyName || "Unknown Company"
+        );
+
+        applications.forEach((app, index) => {
+          tableRows.push({
+            company: index === 0 ? companyName : "",
+            product: String(app.product || app.name || "Unknown Product"),
+            status: String(app.currentStatus || "Unknown"),
+            statusColor: getCurrentStatusColor(app)
+          });
+        });
+      });
+
+      if (!tableRows.length) {
+        tableRows.push({
+          company: "",
+          product: "No products match the current filter.",
+          status: "",
+          statusColor: ""
+        });
       }
 
-      visibleCompanies.forEach(company => {
-        const applications = Array.isArray(company.applications) ? company.applications : [];
-        if (!applications.length) {
-          return;
-        }
-
-        if (cursorY > pageHeight - 120) {
-          doc.addPage();
-          cursorY = margin;
-        }
-
-        doc.setDrawColor(229, 231, 235);
-        doc.setFillColor(255, 255, 255);
-        doc.roundedRect(margin, cursorY, pageWidth - (margin * 2), 28, 8, 8, "FD");
-        doc.setFont("helvetica", "bold");
-        doc.setFontSize(12);
-        doc.setTextColor(23, 32, 51);
-        doc.text(`${company.name || company.companyName || "Unknown Company"} (${applications.length})`, margin + 12, cursorY + 18);
-        cursorY += 38;
-
-        applications.forEach(app => {
-          if (cursorY > pageHeight - 118) {
-            doc.addPage();
-            cursorY = margin;
+      doc.autoTable({
+        columns: [
+          { header: "Company", dataKey: "company" },
+          { header: "Product", dataKey: "product" },
+          { header: "Current Status", dataKey: "status" }
+        ],
+        body: tableRows,
+        startY: 220,
+        margin: { top: 42, right: margin, bottom: 54, left: margin },
+        theme: "grid",
+        showHead: "everyPage",
+        rowPageBreak: "avoid",
+        styles: {
+          font: "helvetica",
+          fontSize: 9,
+          textColor: [31, 41, 55],
+          lineColor: [229, 231, 235],
+          lineWidth: 0.5,
+          cellPadding: { top: 9, right: 8, bottom: 9, left: 8 },
+          minCellHeight: 34,
+          valign: "middle",
+          overflow: "linebreak"
+        },
+        headStyles: {
+          fillColor: [20, 83, 45],
+          textColor: [255, 255, 255],
+          fontStyle: "bold",
+          fontSize: 9
+        },
+        alternateRowStyles: {
+          fillColor: [248, 250, 252]
+        },
+        columnStyles: {
+          company: { cellWidth: 172, fontStyle: "bold" },
+          product: { cellWidth: 208 },
+          status: { cellWidth: "auto", halign: "left" }
+        },
+        didParseCell(data) {
+          if (data.section === "body" && data.column.dataKey === "status") {
+            data.cell.text = [""];
+          }
+        },
+        didDrawCell(data) {
+          if (data.section !== "body" || data.column.dataKey !== "status") {
+            return;
           }
 
-          const productName = String(app.product || app.name || "Unknown Product");
-          const applicationNumber = String(app.applicationNumber || "Unknown");
-          const currentStatus = String(app.currentStatus || "Unknown");
-          const statusColor = getCurrentStatusColor(app);
-          const accent = getStatusAccent(statusColor);
-
-          doc.setFillColor(248, 250, 252);
-          doc.roundedRect(margin, cursorY, pageWidth - (margin * 2), 90, 8, 8, "F");
-          doc.setDrawColor(229, 231, 235);
-          doc.roundedRect(margin, cursorY, pageWidth - (margin * 2), 90, 8, 8, "S");
-
-          doc.setFont("helvetica", "bold");
-          doc.setFontSize(11);
-          doc.setTextColor(23, 32, 51);
-          const wrappedProduct = doc.splitTextToSize(productName, pageWidth - (margin * 2) - 28);
-          doc.text(wrappedProduct, margin + 12, cursorY + 18);
-
-          doc.setFont("helvetica", "normal");
-          doc.setFontSize(10);
-          doc.setTextColor(75, 85, 99);
-          doc.text(`Application Number: ${applicationNumber}`, margin + 12, cursorY + 40);
-
-          doc.setFillColor(accent.fill[0], accent.fill[1], accent.fill[2]);
-          doc.roundedRect(margin + 12, cursorY + 50, 96, 18, 9, 9, "F");
-          doc.setTextColor(accent.text[0], accent.text[1], accent.text[2]);
-          doc.setFont("helvetica", "bold");
-          doc.setFontSize(9);
-          doc.text(currentStatus.toUpperCase(), margin + 20, cursorY + 64);
-
-          const stages = Array.isArray(app.stages) ? app.stages : [];
-          if (stages.length) {
-            const stageLabels = stages
-              .map((stage, index) => `${index + 1}. ${stage.name || stage.trackingStageName || "Stage"}`)
-              .join("  •  ");
-            const wrappedStages = doc.splitTextToSize(stageLabels, pageWidth - (margin * 2) - 130);
-            doc.setTextColor(51, 65, 85);
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(9);
-            doc.text(wrappedStages, margin + 12, cursorY + 76);
+          const status = String(data.row.raw.status || "");
+          if (!status) {
+            return;
           }
 
-          cursorY += 96;
-        });
+          const colors = getPdfStatusColors(data.row.raw.statusColor);
+          const availableWidth = data.cell.width - 16;
+          let fontSize = 8;
+          doc.setFont("helvetica", "bold");
+          while (fontSize > 6 && doc.getTextWidth(status) > availableWidth - 14) {
+            fontSize -= 0.5;
+            doc.setFontSize(fontSize);
+          }
 
-        cursorY += 12;
+          const lines = doc.splitTextToSize(status, availableWidth - 14);
+          const pillHeight = Math.min(
+            data.cell.height - 6,
+            Math.max(18, (lines.length * (fontSize + 2)) + 6)
+          );
+          const pillWidth = Math.min(
+            availableWidth,
+            Math.max(48, Math.max(...lines.map(line => doc.getTextWidth(line))) + 14)
+          );
+          const pillX = data.cell.x + 8;
+          const pillY = data.cell.y + ((data.cell.height - pillHeight) / 2);
+
+          doc.setFillColor(...colors.fill);
+          doc.roundedRect(pillX, pillY, pillWidth, pillHeight, pillHeight / 2, pillHeight / 2, "F");
+          doc.setTextColor(...colors.text);
+          doc.setFont("helvetica", "bold");
+          doc.setFontSize(fontSize);
+          doc.text(lines, pillX + 7, pillY + ((pillHeight - (lines.length * (fontSize + 2))) / 2) + fontSize + 1);
+        }
       });
+
+      const totalPages = doc.internal.getNumberOfPages();
+      for (let pageNumber = 1; pageNumber <= totalPages; pageNumber++) {
+        doc.setPage(pageNumber);
+        doc.setDrawColor(229, 231, 235);
+        doc.setLineWidth(0.6);
+        doc.line(margin, pageHeight - 39, pageWidth - margin, pageHeight - 39);
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(8);
+        doc.setTextColor(107, 114, 128);
+        doc.text("NAPAMS Monitor | Status Report", margin, pageHeight - 23);
+        doc.text(`Page ${pageNumber} of ${totalPages}`, pageWidth - margin, pageHeight - 23, {
+          align: "right"
+        });
+      }
 
       doc.save("napams-monitor-report.pdf");
     }
