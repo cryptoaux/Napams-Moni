@@ -97,6 +97,55 @@ jobs:
 
           console.log(`Validated ${companies.length} company credential env vars.`);
           NODE
+        env:
+          COMPANY_1_TIN: ${{ secrets.COMPANY_1_TIN }}
+          COMPANY_1_PASSWORD: ${{ secrets.COMPANY_1_PASSWORD }}
+          COMPANY_2_TIN: ${{ secrets.COMPANY_2_TIN }}
+          COMPANY_2_PASSWORD: ${{ secrets.COMPANY_2_PASSWORD }}
+          COMPANY_3_TIN: ${{ secrets.COMPANY_3_TIN }}
+          COMPANY_3_PASSWORD: ${{ secrets.COMPANY_3_PASSWORD }}
+          COMPANY_4_TIN: ${{ secrets.COMPANY_4_TIN }}
+          COMPANY_4_PASSWORD: ${{ secrets.COMPANY_4_PASSWORD }}
+          COMPANY_5_TIN: ${{ secrets.COMPANY_5_TIN }}
+          COMPANY_5_PASSWORD: ${{ secrets.COMPANY_5_PASSWORD }}
+          COMPANY_6_TIN: ${{ secrets.COMPANY_6_TIN }}
+          COMPANY_6_PASSWORD: ${{ secrets.COMPANY_6_PASSWORD }}
+          COMPANY_7_TIN: ${{ secrets.COMPANY_7_TIN }}
+          COMPANY_7_PASSWORD: ${{ secrets.COMPANY_7_PASSWORD }}
+          COMPANY_8_TIN: ${{ secrets.COMPANY_8_TIN }}
+          COMPANY_8_PASSWORD: ${{ secrets.COMPANY_8_PASSWORD }}
+          COMPANY_9_TIN: ${{ secrets.COMPANY_9_TIN }}
+          COMPANY_9_PASSWORD: ${{ secrets.COMPANY_9_PASSWORD }}
+          COMPANY_10_TIN: ${{ secrets.COMPANY_10_TIN }}
+          COMPANY_10_PASSWORD: ${{ secrets.COMPANY_10_PASSWORD }}
+          COMPANY_11_TIN: ${{ secrets.COMPANY_11_TIN }}
+          COMPANY_11_PASSWORD: ${{ secrets.COMPANY_11_PASSWORD }}
+          COMPANY_12_TIN: ${{ secrets.COMPANY_12_TIN }}
+          COMPANY_12_PASSWORD: ${{ secrets.COMPANY_12_PASSWORD }}
+          COMPANY_13_TIN: ${{ secrets.COMPANY_13_TIN }}
+          COMPANY_13_PASSWORD: ${{ secrets.COMPANY_13_PASSWORD }}
+          COMPANY_14_TIN: ${{ secrets.COMPANY_14_TIN }}
+          COMPANY_14_PASSWORD: ${{ secrets.COMPANY_14_PASSWORD }}
+          COMPANY_15_TIN: ${{ secrets.COMPANY_15_TIN }}
+          COMPANY_15_PASSWORD: ${{ secrets.COMPANY_15_PASSWORD }}
+          COMPANY_16_TIN: ${{ secrets.COMPANY_16_TIN }}
+          COMPANY_16_PASSWORD: ${{ secrets.COMPANY_16_PASSWORD }}
+          COMPANY_17_TIN: ${{ secrets.COMPANY_17_TIN }}
+          COMPANY_17_PASSWORD: ${{ secrets.COMPANY_17_PASSWORD }}
+          COMPANY_18_TIN: ${{ secrets.COMPANY_18_TIN }}
+          COMPANY_18_PASSWORD: ${{ secrets.COMPANY_18_PASSWORD }}
+          COMPANY_19_TIN: ${{ secrets.COMPANY_19_TIN }}
+          COMPANY_19_PASSWORD: ${{ secrets.COMPANY_19_PASSWORD }}
+          COMPANY_20_TIN: ${{ secrets.COMPANY_20_TIN }}
+          COMPANY_20_PASSWORD: ${{ secrets.COMPANY_20_PASSWORD }}
+          COMPANY_21_TIN: ${{ secrets.COMPANY_21_TIN }}
+          COMPANY_21_PASSWORD: ${{ secrets.COMPANY_21_PASSWORD }}
+          COMPANY_22_TIN: ${{ secrets.COMPANY_22_TIN }}
+          COMPANY_22_PASSWORD: ${{ secrets.COMPANY_22_PASSWORD }}
+          COMPANY_23_TIN: ${{ secrets.COMPANY_23_TIN }}
+          COMPANY_23_PASSWORD: ${{ secrets.COMPANY_23_PASSWORD }}
+          COMPANY_24_TIN: ${{ secrets.COMPANY_24_TIN }}
+          COMPANY_24_PASSWORD: ${{ secrets.COMPANY_24_PASSWORD }}
 
       - name: Run NAPAMS monitor
         run: npm run monitor
