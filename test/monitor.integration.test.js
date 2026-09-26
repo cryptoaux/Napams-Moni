@@ -178,7 +178,7 @@ test("monitor.main skips companies whose credentials are missing and writes an e
   }
 });
 
-test("monitor.main accepts a structured COMPANIES_CREDENTIALS_JSON secret payload", async () => {
+test("monitor.main accepts individual company secret env vars without COMPANIES_CREDENTIALS_JSON", async () => {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "napams-monitor-"));
   const companiesFile = writeCompaniesFixture(tmpDir, [
     {
@@ -190,15 +190,9 @@ test("monitor.main accepts a structured COMPANIES_CREDENTIALS_JSON secret payloa
   ]);
   const outputPath = path.join(tmpDir, "data.json");
 
-  delete process.env.TEST_COMPANY_1_TIN;
-  delete process.env.TEST_COMPANY_1_PASSWORD;
-  process.env.COMPANIES_CREDENTIALS_JSON = JSON.stringify([
-    {
-      id: "company_01",
-      tin: "TIN-JSON-1",
-      password: "Password-JSON-1"
-    }
-  ]);
+  delete process.env.COMPANIES_CREDENTIALS_JSON;
+  process.env.TEST_COMPANY_1_TIN = "TIN-ENV-1";
+  process.env.TEST_COMPANY_1_PASSWORD = "Password-ENV-1";
 
   const responseSequence = [
     {
