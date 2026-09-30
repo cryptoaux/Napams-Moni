@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T08:46:50.926Z",
+  "updatedAt": "2026-09-30T15:26:16.167Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -240,8 +240,8 @@
           "companyName": "SHOLAHAM OIL AND GAS LIMITED",
           "applicationNumber": "PEX-BR-518391",
           "appID": "518391",
-          "name": "SHOLAHAM BRAED",
-          "product": "SHOLAHAM BRAED",
+          "name": "SHOLAHAM BREAD ",
+          "product": "SHOLAHAM BREAD ",
           "currentStatus": "Vetting",
           "currentStatusColor": "YELLOW",
           "stages": [
@@ -351,8 +351,8 @@
           "companyName": "SHOLAHAM OIL AND GAS LIMITED",
           "applicationNumber": "NF-BR-518269",
           "appID": "518269",
-          "name": "SHOLAHAM BRAED",
-          "product": "SHOLAHAM BRAED",
+          "name": "SHOLAHAM BREAD ",
+          "product": "SHOLAHAM BREAD ",
           "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
@@ -448,12 +448,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "GREEN",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": false
+              "currentStageSet": true
             }
           ]
         }
@@ -5014,8 +5014,8 @@
       "companyName": "SHOLAHAM OIL AND GAS LIMITED",
       "applicationNumber": "PEX-BR-518391",
       "appID": "518391",
-      "name": "SHOLAHAM BRAED",
-      "product": "SHOLAHAM BRAED",
+      "name": "SHOLAHAM BREAD ",
+      "product": "SHOLAHAM BREAD ",
       "currentStatus": "Vetting",
       "currentStatusColor": "YELLOW",
       "stages": [
@@ -5125,8 +5125,8 @@
       "companyName": "SHOLAHAM OIL AND GAS LIMITED",
       "applicationNumber": "NF-BR-518269",
       "appID": "518269",
-      "name": "SHOLAHAM BRAED",
-      "product": "SHOLAHAM BRAED",
+      "name": "SHOLAHAM BREAD ",
+      "product": "SHOLAHAM BREAD ",
       "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
@@ -5222,12 +5222,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "GREEN",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": false
+          "currentStageSet": true
         }
       ]
     },
