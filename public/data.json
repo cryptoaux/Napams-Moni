@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T08:05:05.775Z",
+  "updatedAt": "2026-10-08T15:33:48.244Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -698,7 +698,7 @@
           "appID": "535556",
           "name": "R-FLOW BREAD",
           "product": "R-FLOW BREAD",
-          "currentStatus": "Vetting",
+          "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
             {
@@ -721,17 +721,17 @@
             },
             {
               "name": "Vetting",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (279/20 Days)",
               "trackingApplicationStage": 9,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Internal Review",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (286/20 Days)",
               "trackingApplicationStage": 5039,
@@ -739,8 +739,8 @@
             },
             {
               "name": "DOSSIER REVIEW CLEARANCE",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (16/40 Days)",
               "trackingApplicationStage": 5038,
@@ -766,8 +766,8 @@
             },
             {
               "name": "Product Safety Report",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 3039,
@@ -775,12 +775,12 @@
             },
             {
               "name": "Approval",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": false
+              "currentStageSet": true
             },
             {
               "name": "Approved",
@@ -1838,7 +1838,7 @@
           "appID": "504836",
           "name": "R. FLOW WATER",
           "product": "R. FLOW WATER",
-          "currentStatus": "Vetting",
+          "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
             {
@@ -1861,17 +1861,17 @@
             },
             {
               "name": "Vetting",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (414/20 Days)",
               "trackingApplicationStage": 9,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Internal Review",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (419/20 Days)",
               "trackingApplicationStage": 5039,
@@ -1879,8 +1879,8 @@
             },
             {
               "name": "DOSSIER REVIEW CLEARANCE",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (16/40 Days)",
               "trackingApplicationStage": 5038,
@@ -1906,8 +1906,8 @@
             },
             {
               "name": "Product Safety Report",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 3039,
@@ -1915,12 +1915,12 @@
             },
             {
               "name": "Approval",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": false
+              "currentStageSet": true
             },
             {
               "name": "Approved",
@@ -5460,7 +5460,7 @@
       "appID": "535556",
       "name": "R-FLOW BREAD",
       "product": "R-FLOW BREAD",
-      "currentStatus": "Vetting",
+      "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
         {
@@ -5483,17 +5483,17 @@
         },
         {
           "name": "Vetting",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (279/20 Days)",
           "trackingApplicationStage": 9,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Internal Review",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (286/20 Days)",
           "trackingApplicationStage": 5039,
@@ -5501,8 +5501,8 @@
         },
         {
           "name": "DOSSIER REVIEW CLEARANCE",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (16/40 Days)",
           "trackingApplicationStage": 5038,
@@ -5528,8 +5528,8 @@
         },
         {
           "name": "Product Safety Report",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 3039,
@@ -5537,12 +5537,12 @@
         },
         {
           "name": "Approval",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": false
+          "currentStageSet": true
         },
         {
           "name": "Approved",
@@ -6570,7 +6570,7 @@
       "appID": "504836",
       "name": "R. FLOW WATER",
       "product": "R. FLOW WATER",
-      "currentStatus": "Vetting",
+      "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
         {
@@ -6593,17 +6593,17 @@
         },
         {
           "name": "Vetting",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (414/20 Days)",
           "trackingApplicationStage": 9,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Internal Review",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (419/20 Days)",
           "trackingApplicationStage": 5039,
@@ -6611,8 +6611,8 @@
         },
         {
           "name": "DOSSIER REVIEW CLEARANCE",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (16/40 Days)",
           "trackingApplicationStage": 5038,
@@ -6638,8 +6638,8 @@
         },
         {
           "name": "Product Safety Report",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 3039,
@@ -6647,12 +6647,12 @@
         },
         {
           "name": "Approval",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": false
+          "currentStageSet": true
         },
         {
           "name": "Approved",
