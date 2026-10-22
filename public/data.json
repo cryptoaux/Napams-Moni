@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T01:50:20.527Z",
+  "updatedAt": "2026-10-22T06:43:20.225Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -1160,7 +1160,7 @@
           "appID": "479245",
           "name": "NAAVA BROWN BATHING SOAP",
           "product": "NAAVA BROWN BATHING SOAP",
-          "currentStatus": "Vetting",
+          "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
             {
@@ -1183,17 +1183,17 @@
             },
             {
               "name": "Vetting",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (143/20 Days)",
               "trackingApplicationStage": 9,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Internal Review",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (106/20 Days)",
               "trackingApplicationStage": 5039,
@@ -1201,8 +1201,8 @@
             },
             {
               "name": "DOSSIER REVIEW CLEARANCE",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (38/40 Days)",
               "trackingApplicationStage": 5038,
@@ -1228,8 +1228,8 @@
             },
             {
               "name": "Product Safety Report",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 3039,
@@ -1237,12 +1237,12 @@
             },
             {
               "name": "Approval",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": false
+              "currentStageSet": true
             },
             {
               "name": "Approved",
@@ -5904,7 +5904,7 @@
       "appID": "479245",
       "name": "NAAVA BROWN BATHING SOAP",
       "product": "NAAVA BROWN BATHING SOAP",
-      "currentStatus": "Vetting",
+      "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
         {
@@ -5927,17 +5927,17 @@
         },
         {
           "name": "Vetting",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (143/20 Days)",
           "trackingApplicationStage": 9,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Internal Review",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (106/20 Days)",
           "trackingApplicationStage": 5039,
@@ -5945,8 +5945,8 @@
         },
         {
           "name": "DOSSIER REVIEW CLEARANCE",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (38/40 Days)",
           "trackingApplicationStage": 5038,
@@ -5972,8 +5972,8 @@
         },
         {
           "name": "Product Safety Report",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 3039,
@@ -5981,12 +5981,12 @@
         },
         {
           "name": "Approval",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": false
+          "currentStageSet": true
         },
         {
           "name": "Approved",
