@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T06:43:20.225Z",
+  "updatedAt": "2026-10-22T12:25:55.294Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -1499,7 +1499,7 @@
           "appID": "549196",
           "name": "MO'DA KULIKULI ",
           "product": "MO'DA KULIKULI ",
-          "currentStatus": "Vetting",
+          "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
             {
@@ -1522,17 +1522,17 @@
             },
             {
               "name": "Vetting",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (179/20 Days)",
               "trackingApplicationStage": 9,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Internal Review",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (58/20 Days)",
               "trackingApplicationStage": 5039,
@@ -1540,8 +1540,8 @@
             },
             {
               "name": "DOSSIER REVIEW CLEARANCE",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (122/40 Days)",
               "trackingApplicationStage": 5038,
@@ -1567,8 +1567,8 @@
             },
             {
               "name": "Product Safety Report",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 3039,
@@ -1576,12 +1576,12 @@
             },
             {
               "name": "Approval",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": false
+              "currentStageSet": true
             },
             {
               "name": "Approved",
@@ -1610,7 +1610,7 @@
           "appID": "548816",
           "name": "MO'DA CHINCHIN",
           "product": "MO'DA CHINCHIN",
-          "currentStatus": "Vetting",
+          "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
             {
@@ -1633,17 +1633,17 @@
             },
             {
               "name": "Vetting",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (237/20 Days)",
               "trackingApplicationStage": 9,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Internal Review",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (116/20 Days)",
               "trackingApplicationStage": 5039,
@@ -1651,8 +1651,8 @@
             },
             {
               "name": "DOSSIER REVIEW CLEARANCE",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (122/40 Days)",
               "trackingApplicationStage": 5038,
@@ -1678,8 +1678,8 @@
             },
             {
               "name": "Product Safety Report",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 3039,
@@ -1687,12 +1687,12 @@
             },
             {
               "name": "Approval",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": false
+              "currentStageSet": true
             },
             {
               "name": "Approved",
@@ -6237,7 +6237,7 @@
       "appID": "549196",
       "name": "MO'DA KULIKULI ",
       "product": "MO'DA KULIKULI ",
-      "currentStatus": "Vetting",
+      "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
         {
@@ -6260,17 +6260,17 @@
         },
         {
           "name": "Vetting",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (179/20 Days)",
           "trackingApplicationStage": 9,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Internal Review",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (58/20 Days)",
           "trackingApplicationStage": 5039,
@@ -6278,8 +6278,8 @@
         },
         {
           "name": "DOSSIER REVIEW CLEARANCE",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (122/40 Days)",
           "trackingApplicationStage": 5038,
@@ -6305,8 +6305,8 @@
         },
         {
           "name": "Product Safety Report",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 3039,
@@ -6314,12 +6314,12 @@
         },
         {
           "name": "Approval",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": false
+          "currentStageSet": true
         },
         {
           "name": "Approved",
@@ -6348,7 +6348,7 @@
       "appID": "548816",
       "name": "MO'DA CHINCHIN",
       "product": "MO'DA CHINCHIN",
-      "currentStatus": "Vetting",
+      "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
         {
@@ -6371,17 +6371,17 @@
         },
         {
           "name": "Vetting",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (237/20 Days)",
           "trackingApplicationStage": 9,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Internal Review",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (116/20 Days)",
           "trackingApplicationStage": 5039,
@@ -6389,8 +6389,8 @@
         },
         {
           "name": "DOSSIER REVIEW CLEARANCE",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (122/40 Days)",
           "trackingApplicationStage": 5038,
@@ -6416,8 +6416,8 @@
         },
         {
           "name": "Product Safety Report",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 3039,
@@ -6425,12 +6425,12 @@
         },
         {
           "name": "Approval",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": false
+          "currentStageSet": true
         },
         {
           "name": "Approved",
