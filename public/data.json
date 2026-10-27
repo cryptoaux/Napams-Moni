@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:50:18.938Z",
+  "updatedAt": "2026-10-27T05:47:58.904Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -2695,8 +2695,8 @@
             },
             {
               "name": "Inspection",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (0/20 Days)",
               "trackingApplicationStage": 22,
@@ -7397,8 +7397,8 @@
         },
         {
           "name": "Inspection",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (0/20 Days)",
           "trackingApplicationStage": 22,
