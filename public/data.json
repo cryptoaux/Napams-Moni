@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T17:22:11.000Z",
+  "updatedAt": "2026-10-28T21:46:19.387Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -1386,8 +1386,8 @@
           "companyName": "MODADE GLOBAL LIMITED",
           "applicationNumber": "NF-FD-548934",
           "appID": "548934",
-          "name": "MO'DA RIPE PLANTAIN CHIPS",
-          "product": "MO'DA RIPE PLANTAIN CHIPS",
+          "name": "Mo'da Spiced Ripe Plantain Chips",
+          "product": "Mo'da Spiced Ripe Plantain Chips",
           "currentStatus": "Approval",
           "currentStatusColor": "YELLOW",
           "stages": [
@@ -1594,12 +1594,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": true
+              "currentStageSet": false
             }
           ]
         },
@@ -1705,12 +1705,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": true
+              "currentStageSet": false
             }
           ]
         },
@@ -6124,8 +6124,8 @@
       "companyName": "MODADE GLOBAL LIMITED",
       "applicationNumber": "NF-FD-548934",
       "appID": "548934",
-      "name": "MO'DA RIPE PLANTAIN CHIPS",
-      "product": "MO'DA RIPE PLANTAIN CHIPS",
+      "name": "Mo'da Spiced Ripe Plantain Chips",
+      "product": "Mo'da Spiced Ripe Plantain Chips",
       "currentStatus": "Approval",
       "currentStatusColor": "YELLOW",
       "stages": [
@@ -6332,12 +6332,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": true
+          "currentStageSet": false
         }
       ]
     },
@@ -6443,12 +6443,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": true
+          "currentStageSet": false
         }
       ]
     },
