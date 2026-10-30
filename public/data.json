@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T02:56:15.866Z",
+  "updatedAt": "2026-10-30T09:08:08.953Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -1705,12 +1705,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": true
+              "currentStageSet": false
             }
           ]
         },
@@ -6443,12 +6443,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": true
+          "currentStageSet": false
         }
       ]
     },
