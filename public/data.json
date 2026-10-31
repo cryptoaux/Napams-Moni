@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:53:08.560Z",
+  "updatedAt": "2026-10-31T18:53:46.445Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -2350,8 +2350,8 @@
             },
             {
               "name": "Inspection",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": " (0/20 Days)",
               "trackingApplicationStage": 22,
@@ -4552,12 +4552,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "GREEN",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": false
+              "currentStageSet": true
             }
           ]
         },
@@ -4663,12 +4663,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "GREEN",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": false
+              "currentStageSet": true
             }
           ]
         },
@@ -4774,12 +4774,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "GREEN",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": false
+              "currentStageSet": true
             }
           ]
         }
@@ -7064,8 +7064,8 @@
         },
         {
           "name": "Inspection",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": " (0/20 Days)",
           "trackingApplicationStage": 22,
@@ -9218,12 +9218,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "GREEN",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": false
+          "currentStageSet": true
         }
       ]
     },
@@ -9329,12 +9329,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "GREEN",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": false
+          "currentStageSet": true
         }
       ]
     },
@@ -9440,12 +9440,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "GREEN",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": false
+          "currentStageSet": true
         }
       ]
     }
