@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T08:54:12.992Z",
+  "updatedAt": "2026-10-31T14:53:08.560Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -698,8 +698,8 @@
           "appID": "535556",
           "name": "R-FLOW BREAD",
           "product": "R-FLOW BREAD",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -775,17 +775,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -1388,8 +1388,8 @@
           "appID": "548934",
           "name": "Mo'da Spiced Ripe Plantain Chips",
           "product": "Mo'da Spiced Ripe Plantain Chips",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -1465,17 +1465,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -1499,8 +1499,8 @@
           "appID": "549196",
           "name": "MO'DA KULIKULI ",
           "product": "MO'DA KULIKULI ",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -1576,17 +1576,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -1610,8 +1610,8 @@
           "appID": "548816",
           "name": "MO'DA CHINCHIN",
           "product": "MO'DA CHINCHIN",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -1687,17 +1687,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -1721,8 +1721,8 @@
           "appID": "549198",
           "name": "MO'DA CRUNCHY GROUNDNUT",
           "product": "MO'DA CRUNCHY GROUNDNUT",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -1798,17 +1798,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -1838,8 +1838,8 @@
           "appID": "504836",
           "name": "R. FLOW WATER",
           "product": "R. FLOW WATER",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -1915,17 +1915,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -3985,12 +3985,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "GREEN",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": false
+              "currentStageSet": true
             }
           ]
         },
@@ -4330,12 +4330,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "GREEN",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+              "color": "YELLOW",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": false
+              "currentStageSet": true
             }
           ]
         },
@@ -5460,8 +5460,8 @@
       "appID": "535556",
       "name": "R-FLOW BREAD",
       "product": "R-FLOW BREAD",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -5537,17 +5537,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
@@ -6126,8 +6126,8 @@
       "appID": "548934",
       "name": "Mo'da Spiced Ripe Plantain Chips",
       "product": "Mo'da Spiced Ripe Plantain Chips",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -6203,17 +6203,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
@@ -6237,8 +6237,8 @@
       "appID": "549196",
       "name": "MO'DA KULIKULI ",
       "product": "MO'DA KULIKULI ",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -6314,17 +6314,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
@@ -6348,8 +6348,8 @@
       "appID": "548816",
       "name": "MO'DA CHINCHIN",
       "product": "MO'DA CHINCHIN",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -6425,17 +6425,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
@@ -6459,8 +6459,8 @@
       "appID": "549198",
       "name": "MO'DA CRUNCHY GROUNDNUT",
       "product": "MO'DA CRUNCHY GROUNDNUT",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -6536,17 +6536,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
@@ -6570,8 +6570,8 @@
       "appID": "504836",
       "name": "R. FLOW WATER",
       "product": "R. FLOW WATER",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -6647,17 +6647,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
@@ -8663,12 +8663,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "GREEN",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": false
+          "currentStageSet": true
         }
       ]
     },
@@ -8996,12 +8996,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "GREEN",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
+          "color": "YELLOW",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": false
+          "currentStageSet": true
         }
       ]
     },
