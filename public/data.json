@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T15:31:43.209Z",
+  "updatedAt": "2026-11-03T21:15:52.486Z",
   "totalCompanies": 20,
   "totalApplications": 42,
   "companies": [
@@ -1255,12 +1255,12 @@
             },
             {
               "name": "Compliance Directive",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 100,
-              "currentStageSet": true
+              "currentStageSet": false
             }
           ]
         },
@@ -1271,8 +1271,8 @@
           "appID": "479436",
           "name": "NAAVA BLACK BATHING SOAP",
           "product": "NAAVA BLACK BATHING SOAP",
-          "currentStatus": "Approval",
-          "currentStatusColor": "YELLOW",
+          "currentStatus": "Laboratory",
+          "currentStatusColor": "GREEN",
           "stages": [
             {
               "name": "Submission",
@@ -1348,17 +1348,17 @@
             },
             {
               "name": "Approval",
-              "color": "YELLOW",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 2024,
-              "currentStageSet": true
+              "currentStageSet": false
             },
             {
               "name": "Approved",
-              "color": "RED",
-              "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+              "color": "GREEN",
+              "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
               "status": "",
               "duration": "",
               "trackingApplicationStage": 16,
@@ -5999,12 +5999,12 @@
         },
         {
           "name": "Compliance Directive",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 100,
-          "currentStageSet": true
+          "currentStageSet": false
         }
       ]
     },
@@ -6015,8 +6015,8 @@
       "appID": "479436",
       "name": "NAAVA BLACK BATHING SOAP",
       "product": "NAAVA BLACK BATHING SOAP",
-      "currentStatus": "Approval",
-      "currentStatusColor": "YELLOW",
+      "currentStatus": "Laboratory",
+      "currentStatusColor": "GREEN",
       "stages": [
         {
           "name": "Submission",
@@ -6092,17 +6092,17 @@
         },
         {
           "name": "Approval",
-          "color": "YELLOW",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-warning m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 2024,
-          "currentStageSet": true
+          "currentStageSet": false
         },
         {
           "name": "Approved",
-          "color": "RED",
-          "napamsDescription": "text-white border-none badge rounded-pill bg-danger m-2 mr-2 p-3 col-5",
+          "color": "GREEN",
+          "napamsDescription": "text-white border-none badge rounded-pill bg-primary m-2 mr-2 p-3 col-5",
           "status": "",
           "duration": "",
           "trackingApplicationStage": 16,
